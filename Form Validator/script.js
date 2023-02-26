@@ -14,6 +14,7 @@ function showError(input,message) {
 }
 
 //Show success outline
+//Function
 function showSuccess(input){
     const formControl = input.parentElement;
     formControl.className = 'form-control success';
